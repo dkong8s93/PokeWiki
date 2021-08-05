@@ -1,0 +1,15 @@
+.Dashboard {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aqua;
+  }
+
+.Dashboard-row {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    min-height: 30vh;
+    background-color: orange;
+}
