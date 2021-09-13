@@ -1,8 +1,8 @@
 .Dashboard {
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: aqua;
+    background-color: rgb(145, 187, 49);
   }
 
 .Dashboard-row {
@@ -11,5 +11,5 @@
     flex-direction: row;
     justify-content: space-evenly; 
     min-height: 30vh;
-    background-color: orange;
+    background-color:  #d8e2dc;
 }
