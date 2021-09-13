@@ -1,7 +1,7 @@
 .Dashboard {
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
     background-color: rgb(145, 187, 49);
   }
 
@@ -11,5 +11,5 @@
     flex-direction: row;
     justify-content: space-evenly; 
     min-height: 30vh;
-    background-color:  #d8e2dc;
+    background-color:  #8a817c;
 }

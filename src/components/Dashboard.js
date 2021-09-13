@@ -15,8 +15,8 @@ function Dashboard() {
     const row2 = [];
     const row3 = [];
     const row4 = [];
-
-    const apiResult = httpGet("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20")['results'];
+    let myPokeRandom = Math.floor(Math.random() * 1000)
+    const apiResult = httpGet(`https://pokeapi.co/api/v2/pokemon/?offset=${myPokeRandom}&limit=20`)['results'];
     for (const [index, pokemon] of apiResult.entries()) {
         var temp = pokemon['name'];
         var pokemonName = temp[0].toUpperCase() + temp.slice(1);
